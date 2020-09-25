@@ -1,0 +1,15 @@
+#Question 1: Given a two integer numbers return their product and 
+#if the product is greater than 1000, then return their sum
+
+def calculator(number1, number2):
+    product = number1 * number2
+    if product <= 1000:
+        return product
+    else:
+        sum_value = number1 + number2
+        return sum_value
+        
+number1 = 200
+number2 = 300
+result = calculator(number1, number2)
+print(result)
